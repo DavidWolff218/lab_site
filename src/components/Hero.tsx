@@ -2,6 +2,7 @@ import LabsHeroImage from "../assets/LabsHeroImage.jpeg";
 
 function Hero() {
   return (
+    <>
     <div className="w-full mx-auto mt-12 px-4 md:px-8 h-[29.4rem] bg-gray-100 flex items-start">
       <div className="mr-8">
         <h1 className="text-[32px] font-medium font-['Roboto_Slab'] pl-6">
@@ -19,7 +20,10 @@ function Hero() {
         </p>
       </div>
       <img src={LabsHeroImage} alt="Labs Hero" className="w-1/2 max-h-[29.4rem] rounded" />
+      
     </div>
+    <div className="w-full h-[2px] bg-mainText my-10" />
+    </>
   );
 }
 

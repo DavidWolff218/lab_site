@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
+import HomeLabContainer from "./containers/HomeLabContainer"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <NavBar />
     <Hero />
+    <HomeLabContainer />
     </>
   )
 }
